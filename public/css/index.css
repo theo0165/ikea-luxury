@@ -1,0 +1,18 @@
+.logo {
+  font-family: Voyage;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation ul {
+  list-style-type: none;
+}
+
+.navigation li {
+  display: inline-block;
+}
