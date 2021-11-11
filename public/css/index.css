@@ -1,7 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body{
@@ -10,12 +10,24 @@ body{
 .logo {
   font-family: Voyage;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 60px;
+  color: #e9e2d4;
+}
+
+.navigation {
+  position: absolute;
+  padding-top: 30px;
+  font-family: Optima;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navigation li a {
   text-decoration: none;
-  color: black;
+  font-size: 24px;
+  color: #e9e2d4;
 }
 
 .navigation ul {
@@ -24,4 +36,15 @@ body{
 
 .navigation li {
   display: inline-block;
+  padding: 0 30px;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+}
+
+.hero img {
+  width: 100vw;
+  height: 100vh;
 }
