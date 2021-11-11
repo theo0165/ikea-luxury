@@ -21,11 +21,12 @@
 .product img{
     width: 470px;
     height: 580px;
+    display: block;
 }
 
 .product-meta{
     position: absolute;
     bottom: 35px;
     left: 26px;
-
+    font-family: Nunito, sans-serif;
 }
