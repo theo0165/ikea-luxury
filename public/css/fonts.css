@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Voyage;
+    src: url("/public/fonts/Voyage/Voyage-Regular.woff2");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Voyage;
+    src: url("/public/fonts/Voyage/Voyage-Bold.woff2");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Optima;
+    src: url("/public/fonts/Optima/Optima.woff2");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Optima;
+    src: url("/public/fonts/Optima/Optima-Bold.woff2");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url("/public/fonts/Nunito/Nunito-Regular.woff2");
+    font-weight: normal;
+}
