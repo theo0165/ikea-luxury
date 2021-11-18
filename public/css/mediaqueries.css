@@ -39,3 +39,19 @@
         align-items: center;
     }
 }
+
+@media screen and (max-width: 846px) {
+    .grid-container{
+        padding: 0;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        height: auto;
+        padding: 40px;
+    }
+
+    .grid-box{
+        display: flex;
+        justify-content: center;
+    }
+}
