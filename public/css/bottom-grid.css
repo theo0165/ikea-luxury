@@ -1,0 +1,34 @@
+.bottom-grid{
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    grid-template-rows: 1fr;
+}
+
+.grid-item{}
+
+.grid-item img{
+    height: 860px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.grid-item-right{
+    background-color: #EBE2D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid-item-right .text-container{
+    width: 555px;
+}
+
+.grid-item-left{
+
+}
+
+.grid-item h2{}
+
+.grid-item p{}
