@@ -1,0 +1,23 @@
+.menu-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 4px;
+}
+
+.menu-grid .grid-item{
+    position: relative;
+    display: inline-block;
+}
+
+.menu-grid .grid-item img{
+    display: block;
+    /* width: 470px;
+    height: 650px; */
+}
+
+.menu-grid .grid-item .grid-item-button{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
