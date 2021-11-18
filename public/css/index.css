@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-body{
-    font-family: Optima, sans-serif;
+body {
+  font-family: Optima, sans-serif;
 }
 .logo {
   font-family: Voyage;
@@ -41,4 +41,50 @@ body{
 
 .hero img {
   width: 100%;
+}
+
+.grid-container {
+  background-color: #2e3114;
+  height: 400px;
+  display: grid;
+  padding-left: 80px;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-box-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+  width: 70%;
+}
+
+.grid-box-text {
+  color: #ffffff;
+}
+
+.grid-container-ourstory {
+  background-color: #e9e2d4;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.ourstory-image img {
+  width: 100%;
+  display: block;
+}
+
+.grid-ourstory-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 120px;
+  text-align: left;
+  align-items: left;
+  height: 100%;
+  width: 85%;
 }
