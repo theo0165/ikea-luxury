@@ -105,3 +105,14 @@ body {
     font-family: "Optima";
     font-size: 24px;
     cursor: pointer; */
+
+hr{
+  size: 2px;
+  margin: 25px 0 15px 0;
+  color: black;
+  background: black;
+}
+
+hr:last-of-type{
+  margin: 15px 0 25px 0;
+}
