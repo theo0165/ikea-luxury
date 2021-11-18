@@ -54,11 +54,16 @@ body {
   width: 100%;
   padding: 20px;
   position: absolute;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .mobile-nav li {
   display: inline-block;
+}
+
+.hamburger-container {
+  position: absolute;
+  right: 40px;
 }
 
 .grid-container {
