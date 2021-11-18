@@ -1,15 +1,23 @@
 footer{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
     font-family: 'Nunito';
 }
 
 .footer-grid-item{
-    padding: 40px;
+    padding: 90px;
 }
 
-.footer-text{}
+.footer-text{
+    padding-bottom: 26px;
+}
+
+.footer-text h3{
+    font-family: 'Voyage';
+    font-size: 28px;
+    padding-bottom: 10px;
+}
 
 .footer-input{
     position: relative;
@@ -34,9 +42,21 @@ footer{
     border: 1px solid black;
     padding: 0 20px;
     cursor: pointer;
+    background: #E9E2D4;
 }
 
 .footer-links{
     text-align: center;
     display: inline-block;
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+}
+
+.footer-grid-item:last-of-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
