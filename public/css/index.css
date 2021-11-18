@@ -91,7 +91,14 @@ body {
 
 .grid-container-ourstory .grid-ourstory-text .grid-ourstory-button {
   font-family: "Optima";
+  position: absolute;
   font-size: 24px;
+  padding: 20px 60px;
+  border: none;
+  margin-top: 40px;
+  margin-left: 100px;
+  background: white;
+  cursor: pointer;
 }
 
 /* position: absolute;
