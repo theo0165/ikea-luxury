@@ -43,6 +43,24 @@ body {
   width: 100%;
 }
 
+.hamburger {
+  cursor: pointer;
+  z-index: 99;
+  display: none;
+}
+
+.mobile-nav {
+  display: none;
+  width: 100%;
+  padding: 20px;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobile-nav li {
+  display: inline-block;
+}
+
 .grid-container {
   background-color: #2e3114;
   height: 400px;
