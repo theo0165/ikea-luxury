@@ -1,4 +1,7 @@
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 860px) {
+  .heroMobile img {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1025px) {
@@ -22,6 +25,14 @@
 
   nav {
     display: none;
+  }
+
+  .hero {
+    display: none;
+  }
+
+  .heroMobile img {
+    width: 100vw;
   }
 }
 
@@ -70,27 +81,26 @@
 }
 
 @media screen and (max-width: 600px) {
-    .text-container{
-        width: 100% !important;
-    }
+  .text-container {
+    width: 100% !important;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    footer{
+  footer {
+  }
 
-    }
-  
-    .footer-input{
-        width: 100%;
-    }
-  
-    .footer-input .input-email{
-        width: 100%;
-    }
+  .footer-input {
+    width: 100%;
+  }
 
-    .footer-grid-item{
-        padding: 50px;
-    }
+  .footer-input .input-email {
+    width: 100%;
+  }
+
+  .footer-grid-item {
+    padding: 50px;
+  }
 }
 
 /*@media screen and (max-width: 520px) {
