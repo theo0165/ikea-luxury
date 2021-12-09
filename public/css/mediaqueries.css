@@ -103,6 +103,20 @@
   }
 }
 
+@media screen and (max-width: 580px) {
+  main .menu-grid .grid-item .grid-item-button {
+    padding: 10px 15px;
+    bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  main .product img {
+    height: auto;
+    width: 350px;
+  }
+}
+
 /*@media screen and (max-width: 520px) {
     .input-email{
         width: 135px !important;
