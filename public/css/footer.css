@@ -1,62 +1,64 @@
-footer{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr;
-    font-family: 'Nunito';
+footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  font-family: "Nunito";
 }
 
-.footer-grid-item{
-    padding: 90px;
+.footer-grid-item {
+  padding: 90px;
 }
 
-.footer-text{
-    padding-bottom: 26px;
+.footer-text {
+  padding-bottom: 26px;
 }
 
-.footer-text h3{
-    font-family: 'Voyage';
-    font-size: 28px;
-    padding-bottom: 10px;
+.footer-text h3 {
+  font-family: "Voyage";
+  font-size: 28px;
+  padding-bottom: 10px;
 }
 
-.footer-input{
-    position: relative;
-    display: inline-block;
+.footer-input {
+  position: relative;
+  display: inline-block;
 }
 
-.footer-input .input-email{
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-left: 8px;
-    width: 400px;
-    font-size: 16px;
-    display: inline-block;
+.footer-input .input-email {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 8px;
+  width: 400px;
+  font-size: 16px;
+  display: inline-block;
+  font-family: "Nunito";
 }
 
-.footer-input .input-submit{
-    position: absolute;
-    border: 0;
-    top: 0;
-    right: 0;
-    height: 100%;
-    border: 1px solid black;
-    padding: 0 20px;
-    cursor: pointer;
-    background: #E9E2D4;
+.footer-input .input-submit {
+  position: absolute;
+  border: 0;
+  top: 0;
+  right: 0;
+  height: 100%;
+  border: 1px solid black;
+  padding: 0 20px;
+  cursor: pointer;
+  background: #e9e2d4;
+  font-family: "Nunito";
 }
 
-.footer-links{
-    text-align: center;
-    display: inline-block;
+.footer-links {
+  text-align: center;
+  display: inline-block;
 }
 
-footer a{
-    color: black;
-    text-decoration: none;
+footer a {
+  color: black;
+  text-decoration: none;
 }
 
-.footer-grid-item:last-of-type{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer-grid-item:last-of-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
