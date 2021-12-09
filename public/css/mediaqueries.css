@@ -39,14 +39,22 @@
 @media screen and (max-width: 1080px) {
   .grid-container-ourstory {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  main .grid-ourstory-text {
+    padding: 24px 48px;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 1100px) {
   .bottom-grid {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+  }
+
+  main .grid-item-right {
+    padding: 24px 48px;
   }
 }
 
