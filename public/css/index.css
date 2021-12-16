@@ -183,3 +183,11 @@ hr:last-of-type {
 button {
   color: black;
 }
+
+.grid-container br {
+  display: none;
+}
+
+.grid-container h2 {
+  padding-bottom: 24px;
+}
